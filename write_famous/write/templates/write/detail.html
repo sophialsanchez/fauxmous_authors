@@ -1,0 +1,17 @@
+{% extends 'write/base.html' %}
+
+{% block go-back %}
+<div style="display:inline-block; float:left; pos">
+<a class="go-back" href="/write/">Go back</a>
+</div>
+{% endblock go-back %}
+
+{% block content %}
+<script type="text/javascript">
+var book = "{{ book.book_text|escapejs }}";
+</script>
+<h1 class="book-header" align="center">{{ book.book_title }}</h1>
+	<p id="text-space" class="text-p"></p>
+	<br>
+
+{% endblock content %}
