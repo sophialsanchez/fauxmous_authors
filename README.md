@@ -1,4 +1,4 @@
-# write_famous
+# Fauxmous Authors
 
 Pretend you're a famous author.
 
